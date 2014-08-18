@@ -1,4 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {background-color:}
+#home {background-color:yellow;}
+#gallery {background-color: gray;}
+#about {background-color: gray;}
+.wrapper {background-color:aqua; max-width:1170px; margin: 0 auto;}
+
+.column-features {background-color: red; width:33%; float:left;}
+
+
+

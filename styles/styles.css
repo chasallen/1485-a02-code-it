@@ -11,6 +11,7 @@ body {font-family: 'Open Sans', sans-serif;}
 
 .clear {clear:both;}
 .img {img:100%}
+.video img {width:100%}
 
 .column-features {width:33%; float:left; padding-right:30px; padding-left:30px;}
 .column-about {background-color:#fafafa; width:25%; float:left;}

@@ -5,13 +5,18 @@
 body {font-family: 'Open Sans', sans-serif;}
 
 #home {background-color:#f8e514;}
+#home .wrapper {position: relative; min-height:780px;}
+#features {clear: both; overflow:auto; min-height:780px;}
 #gallery {clear: both; background-color:#fafafa; overflow:auto;}
 #about {background-color:#fafafa;}
 .wrapper {background-color:#f8e514; max-width:1170px; margin:0 auto;}
 
+.intro {float:left; width:45%; margin-top:350px;}
+
 .clear {clear:both;}
 .img {img:100%}
 .video img {width:100%}
+.featured-in img {width:100%}
 
 .column-features {width:33%; float:left; padding-right:30px; padding-left:30px;}
 .column-about {background-color:#fafafa; width:25%; float:left;}
@@ -27,3 +32,5 @@ nav {width:50%; float:right;}
 .column-features img {width:100%}
 .column-gallery img {width:100%}
 .column-about img {width:100%}
+
+header {background:white; overflow:auto; position:fixed; top:30px; width:100%; max-width: 1170px; margin: 0 auto; z-index:1;}

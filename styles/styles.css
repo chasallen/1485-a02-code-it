@@ -4,19 +4,24 @@
 *, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 body {font-family: 'Open Sans', sans-serif;}
 
-#home {background-color:#f8e514;}
+body, h1, h2, nav, header, ul, li {margin:0; padding:0;}
+
+#home {background: #f8e514 url("http://i.imgur.com/G4zOcCO.jpg") no-repeat center;background-height: 100%; min-height:780px;}
 #home .wrapper {position: relative; min-height:780px;}
 #features {clear: both; overflow:auto; min-height:780px;}
 #gallery {clear: both; background-color:#fafafa; overflow:auto;}
 #about {background-color:#fafafa;}
 .wrapper {background-color:#f8e514; max-width:1170px; margin:0 auto;}
 
-.intro {float:left; width:45%; margin-top:350px;}
+#home .wrapper {position: relative; min-height:780px;}
+.home-image {position:absolute; bottom:0; right:0; z-index:0;}
 
+
+.intro {float:left; width:45%; margin-top:350px;}
+.footer {float:left; width:20%; margin-top:350px;}
 .clear {clear:both;}
-.img {img:100%}
-.video img {width:100%}
-.featured-in img {width:100%}
+.img .video img .featured-in img {img:100%}
+
 
 .column-features {width:33%; float:left; padding-right:30px; padding-left:30px;}
 .column-about {background-color:#fafafa; width:25%; float:left;}
@@ -34,3 +39,13 @@ nav {width:50%; float:right;}
 .column-about img {width:100%}
 
 header {background:white; overflow:auto; position:fixed; top:30px; width:100%; max-width: 1170px; margin: 0 auto; z-index:1;}
+
+h3 {margin:0;}
+
+.feature-details {width:33%; padding:20px; overflow:auto; cursor:default;}
+
+.feature-details: hover {background:#fbfbe9;}
+
+.feature-details span {float:left; font-size:30px; line-height:30px; width:15%; margin-top:0;}
+
+.feature-content {width:85%; float:left;}
